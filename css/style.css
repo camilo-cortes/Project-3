@@ -28,6 +28,10 @@ body > h1 {
   float: left;
 }
 
+body {
+  background-color: yellow;
+  border-radius: 80px;
+}
 
 body > section {
   display: block;

@@ -1,5 +1,11 @@
 /*! Camilo Cortes, ITMD-Project2, style.css!*/
 
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
 html {
   font-family: "Calibri", "Times New Roman", serif;
   background-color: pink;

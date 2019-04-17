@@ -1,11 +1,5 @@
 /*! Camilo Cortes, ITMD-Project2, style.css!*/
 
-@media screen and (min-width: 480px) {
-  body {
-    background-color: lightgreen;
-  }
-}
-
 html {
   font-family: "Calibri", "Times New Roman", serif;
   background-color: pink;
@@ -16,7 +10,9 @@ html {
 
 h1 {
 margin:auto;
-width: 30%;
+width: 100%;
+text-align: center;
+
 }
 
 h2 {
@@ -29,7 +25,6 @@ h3 {
 }
 
 body > h1 {
-  font-size: 200px;
   float: left;
 }
 
@@ -44,7 +39,7 @@ body > img {
 }
 
 div > h1 {
-  font-size: 150px;
+  font-size: 100px;
 }
 
 .split {
@@ -102,20 +97,26 @@ div > h1 {
 #navigation li {
   float: left;
   margin: 0 0.625em;  /* at 10px, (10px/16px=0.625em) */
+  overflow: auto;
 }
 
 #edu_head, #pro_head, #exp_head {
 	text-align: center;
 	justify-content: center;
+  overflow: auto;
+  background-color: white;
+  width: 100%
 }
 
 #education {
 	justify-content: center;
-  float: right;
+  float: left;
+  overflow: auto;
 }
 
 #experience {
   float: left;
+  overflow: auto;
 }
 
 .active {

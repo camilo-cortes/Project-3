@@ -16,7 +16,9 @@
   </nav>
   <h2>Chicago, Illinois USA</h2>
   <h4>camilocortes.52@gmail.com -- ccortes2@hawk.iit.edu</h4>
-  <h1>Camilo Cortes</h1>
+  <div id="heading">
+    <h1>Camilo Cortes</h1>
+  </div>
   <section id="education">
   <h3 id="edu_head" class="Ecenter">EDUCATION</h3>
   <h4>Illinois Institute of Technology, Chicago, Illinois</h4>
@@ -46,9 +48,19 @@
   </p>
   </section>
 </body>
-@media screen and (min-width: 480px) {
-  body {
-    background-color: lightgreen;
+<style>
+  @media screen and (min-width: 800px) {
+    div > h1 {
+      font-size: 200px;
+    }
+
+    #edu_head, #pro_head, #exp_head {
+      text-align: center;
+      justify-content: center;
+      overflow: auto;
+      background-color: white;
+      width: 30%;
+    }
   }
-}
+</style>
 </html>

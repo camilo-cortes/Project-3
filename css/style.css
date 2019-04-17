@@ -1,0 +1,117 @@
+/*! Camilo Cortes, ITMD-Project2, style.css!*/
+
+html {
+  font-family: "Calibri", "Times New Roman", serif;
+  background-color: pink;
+  margin: auto; 
+  padding-top: 10px;
+  width: 80%
+}
+
+h1 {
+margin:auto;
+width: 30%;
+}
+
+h2 {
+  margin-top: 3em;
+}
+
+h3 {
+	color: blue;
+	justify-content: center;
+}
+
+body > h1 {
+  font-size: 200px;
+  float: left;
+}
+
+
+body > section {
+  display: block;
+  float: right;
+}
+
+body > img {
+  display: block;
+}
+
+div > h1 {
+  font-size: 150px;
+}
+
+.split {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  padding: 3px;
+}
+
+.nav {
+  position: sticky;  /* forces it over h1 heading */
+  width: 100%;
+  top: 0;  /* forces it to the top */
+  left: 0;  /* forces it to the entire screen */
+  font-family: "Times New Roman", serif;  /* same for all nav */
+  background-color: purple;
+  padding: 5px;
+}
+
+.right {
+
+	right: 0px;
+}
+
+.left {
+
+	left: 0px;
+}
+
+#fleft {
+  float: left;
+}
+
+#fright {
+  float:right;
+}
+
+.Ecenter, .Pcenter, .Excenter {
+
+  width: 40%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+#navigation li {
+  float: left;
+  margin: 0 0.625em;  /* at 10px, (10px/16px=0.625em) */
+}
+
+#edu_head, #pro_head, #exp_head {
+	text-align: center;
+	justify-content: center;
+}
+
+#education {
+	justify-content: center;
+  float: right;
+}
+
+#experience {
+  float: left;
+}
+
+.active {
+  font-style: white;
+}

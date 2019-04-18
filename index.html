@@ -49,6 +49,18 @@
   </section>
 </body>
 <style>
+  @media screen and (min-width: 500px) {
+    .nav {
+      width: 280px;
+      height: 30px;
+      float: left;
+      align-content: center;
+    }
+    li a {
+      display: block;
+      width: 100px;
+    }
+  }
   @media screen and (min-width: 800px) {
     div > h1 {
       font-size: 200px;
@@ -58,7 +70,7 @@
       justify-content: center;
       overflow: auto;
       background-color: white;
-      width: 30%;
+      width: 40%;
       font-size: 19px;
     }
     h2 {
@@ -75,16 +87,9 @@
       font-family: "Times New Roman", serif;  /* same for all nav */
       background-color: yellow;
       padding: 5px;
+      width: 100%;
     }
-  @media screen and (min-width: 1500px) {
-    .nav {
-    position: absolute; !important;  /* forces it over h1 heading */
-    top: 0;  /* forces it to the top */
-    left: 0;  /* forces it to the entire screen */
-    font-family: "Times New Roman", serif;  /* same for all nav */
-    background-color: yellow;
-    padding: 5px;
-  }
+
   }
 
   }

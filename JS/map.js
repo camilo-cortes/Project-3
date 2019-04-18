@@ -4,7 +4,6 @@ function initMap() {
           center: tower,
           zoom: 8
         });
-		
 	var marker = new google.maps.Marker({
 		  position: tower,
 		  map: map,
@@ -15,9 +14,6 @@ function initMap() {
 	var infowindow = new google.maps.InfoWindow({
 		  content: 'Willis Tower: Skydeck'
 	    });
-		
-
-      
 marker.addListener('click', function() {
 		infowindow.open(map, marker);
 	});

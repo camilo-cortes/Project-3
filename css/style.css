@@ -7,52 +7,41 @@ html {
   padding-top: 10px;
   width: 80%
 }
-
 h1 {
 margin:auto;
 width: 100%;
 text-align: center;
-
 }
-
 h2 {
   margin-top: 3em;
 }
-
 h3 {
 	color: blue;
 	justify-content: center;
 }
-
 body > h1 {
   float: left;
 }
-
 body {
   background-color: yellow;
   border-radius: 80px;
 }
-
 body > section {
   display: block;
   float: right;
 }
-
 body > img {
   display: block;
 }
-
 div > h1 {
   font-size: 100px;
 }
-
 .split {
   width: 50%;
   height: 100%;
   position: absolute;
   padding: 3px;
 }
-
 .nav {
   position: sticky;  /* forces it over h1 heading */
   width: 100%;
@@ -62,32 +51,23 @@ div > h1 {
   background-color: purple;
   padding: 5px;
 }
-
 .right {
-
 	right: 0px;
 }
-
 .left {
-
 	left: 0px;
 }
-
 #fleft {
   float: left;
 }
-
 #fright {
   float:right;
 }
-
 .Ecenter, .Pcenter, .Excenter {
-
   width: 40%;
   border: 3px solid green;
   padding: 10px;
 }
-
 #navigation ul {
   list-style-type: none;
   padding: 0;
@@ -97,13 +77,11 @@ div > h1 {
   justify-content: center;
   padding: 5px;
 }
-
 #navigation li {
   float: left;
   margin: 0 0.625em;  /* at 10px, (10px/16px=0.625em) */
   overflow: auto;
 }
-
 #edu_head, #pro_head, #exp_head {
 	text-align: center;
   font-size: 15px;
@@ -112,13 +90,11 @@ div > h1 {
   background-color: white;
   width: 100%
 }
-
 #education {
 	justify-content: center;
   float: left;
   overflow: auto;
 }
-
 #experience {
   float: left;
   overflow: auto;

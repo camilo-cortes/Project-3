@@ -6,6 +6,49 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="JS/script.js" async defer></script>
   <title>Resume - ITMD 361</title>
+  <style>
+    @media screen and (min-width: 500px) {
+      .nav {
+        width: 390px;
+        height: 30px;
+        float: left;
+        align-content: center;
+      }
+      li a {
+        display: block;
+        width: 100px;
+      }
+    }
+    @media screen and (min-width: 800px) {
+      div > h1 {
+        font-size: 200px;
+      }
+      #edu_head, #pro_head, #exp_head {
+        text-align: center;
+        justify-content: center;
+        overflow: auto;
+        background-color: white;
+        width: 40%;
+        font-size: 19px;
+      }
+      h2 {
+        color: white;
+      }
+      body {
+        background-color: pink;
+        color: black;
+      }
+      .nav {
+        position: sticky !important;  /* forces it over h1 heading */
+        top: 0;  /* forces it to the top */
+        left: 0;  /* forces it to the entire screen */
+        font-family: "Times New Roman", serif;  /* same for all nav */
+        background-color: yellow;
+        padding: 5px;
+        width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
   <nav id="navigation">
@@ -49,50 +92,6 @@
   <p>Responsible for the progress of the events committee. In charge of scouting, coordinating events, and spaces for guest speakers and project events. <a href="https://bit.ly/2DkhEd5"> Visit the website</a>
   </p>
   </section>
-  <style>
-    @media screen and (min-width: 500px) {
-      .nav {
-        width: 390px;
-        height: 30px;
-        float: left;
-        align-content: center;
-      }
-      li a {
-        display: block;
-        width: 100px;
-      }
-    }
-    @media screen and (min-width: 800px) {
-      div > h1 {
-        font-size: 200px;
-      }
-      #edu_head, #pro_head, #exp_head {
-        text-align: center;
-        justify-content: center;
-        overflow: auto;
-        background-color: white;
-        width: 40%;
-        font-size: 19px;
-      }
-      h2 {
-        color: white;
-      }
-      body {
-        background-color: pink;
-        color: black;
-      }
-      .nav {
-        position: sticky !important;  /* forces it over h1 heading */
-        top: 0;  /* forces it to the top */
-        left: 0;  /* forces it to the entire screen */
-        font-family: "Times New Roman", serif;  /* same for all nav */
-        background-color: yellow;
-        padding: 5px;
-        width: 100%;
-      }
-    }
-    }
-  </style>
 </body>
 
 </html>
